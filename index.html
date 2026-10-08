@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="DAN ZAKI MOBILE & ACCESSORIES - Smartphones and mobile accessories in Kano, Nigeria.">
+
+    <title>DAN ZAKI PHONES & ACCESSORIES | Kano</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="#home" class="logo">
+
+           <div class="logo-mark">
+    <img src="images/logo.jpg" alt="DAN ZAKI MOBILE & ACCESSORIES Logo">
+</div>
+
+<div class="brand-text">
+    <strong>DAN ZAKI</strong>
+    <span>PHONE & ACCESSORIES</span>
+</div>
+
+        </a>
+
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+
+        <nav id="navMenu">
+
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+
+        <a
+            href="https://wa.me/2348106460589"
+            class="header-whatsapp"
+            target="_blank"
+        >
+            WhatsApp
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- ================= MAIN ================= -->
+
+<main>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                DAN ZAKI PHONE & ACCESSORIES
+            </span>
+
+            <h1>
+                Your Trusted
+                <span>Phone Store</span>
+                in Kano.
+            </h1>
+
+            <p>
+                Quality smartphones and phone accessories
+                at competitive prices. Contact us directly
+                for the latest price and availability.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn btn-primary">
+                    Explore Products
+                </a>
+
+                <a
+                    href="https://wa.me/2348106460589?text=Hello%20DAN%20ZAKI%20MOBILE%20%26%20ACCESSORIES"
+                    class="btn btn-secondary"
+                    target="_blank"
+                >
+                    Chat on WhatsApp
+                </a>
+
+            </div>
+
+
+            <div class="hero-trust">
+
+                <div>
+                    <strong>Quality</strong>
+                    <span>Products</span>
+                </div>
+
+                <div>
+                    <strong>Easy</strong>
+                    <span>Ordering</span>
+                </div>
+
+                <div>
+                    <strong>Fast</strong>
+                    <span>Response</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="hero-circle"></div>
+
+            <div class="hero-phone">
+
+                <div class="phone-camera"></div>
+
+                <div class="phone-display">
+
+                    <small>WELCOME TO</small>
+
+                    <strong>
+                        DAN<br>
+                        ZAKI
+                    </strong>
+
+                    <span>PHONE</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-one">
+
+                <div class="floating-icon">
+                    📱
+                </div>
+
+                <div>
+                    <strong>Latest Phones</strong>
+                    <span>iPhone • Samsung • Infinix</span>
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-two">
+
+                <div class="floating-icon">
+                    💬
+                </div>
+
+                <div>
+                    <strong>Contact for Price</strong>
+                    <span>Ask us on WhatsApp</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="section products-section" id="products">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="eyebrow">
+                    OUR PRODUCTS
+                </span>
+
+                <h2>
+                    Explore Our Products
+                </h2>
+
+            </div>
+
+            <p>
+                Prices are available on request.
+                Contact us for current price and availability.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH + FILTER -->
+
+        <div class="product-tools">
+
+            <div class="search-box">
+
+                <span>⌕</span>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search products..."
+                >
+
+            </div>
+
+
+            <div class="filter-buttons">
+
+                <button
+                    class="filter active"
+                    data-filter="all"
+                >
+                    All
+                </button>
+
+                <button
+                    class="filter"
+                    data-filter="phone"
+                >
+                    Phones
+                </button>
+
+                <button
+                    class="filter"
+                    data-filter="accessory"
+                >
+                    Accessories
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCTS WILL APPEAR HERE -->
+
+        <div
+            class="product-grid"
+            id="productGrid"
+        ></div>
+
+
+        <div
+            class="no-products"
+            id="noProducts"
+        >
+            No products found.
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-content">
+
+            <span class="eyebrow">
+                ABOUT US
+            </span>
+
+            <h2>
+                Quality phones.
+                Simple buying.
+                Trusted service.
+            </h2>
+
+            <p>
+                DAN ZAKI PHONE & ACCESSORIES is a mobile
+                phone and accessories business located in
+                Kano, Nigeria.
+            </p>
+
+            <p>
+                We provide smartphones from popular brands
+                including iPhone, Samsung, Infinix, Tecno
+                and Redmi, together with useful mobile
+                accessories.
+            </p>
+
+            <a
+                href="https://wa.me/2348106460589"
+                class="btn btn-primary"
+                target="_blank"
+            >
+                Contact Us
+            </a>
+
+        </div>
+
+
+        <div class="benefits">
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ✓
+                </div>
+
+                <div>
+
+                    <h3>
+                        Quality Products
+                    </h3>
+
+                    <p>
+                        We focus on quality phone products
+                        and accessories.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ✓
+                </div>
+
+                <div>
+
+                    <h3>
+                        Contact for Price
+                    </h3>
+
+                    <p>
+                        Ask us for the current price
+                        and availability.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ✓
+                </div>
+
+                <div>
+
+                    <h3>
+                        WhatsApp Ordering
+                    </h3>
+
+                    <p>
+                        Contact us directly through WhatsApp
+                        before buying.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ✓
+                </div>
+
+                <div>
+
+                    <h3>
+                        Kano Location
+                    </h3>
+
+                    <p>
+                        Fatima Farm Center, Rijiyar Lemo,
+                        Kano.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section">
+
+    <div class="container cta-content">
+
+        <div>
+
+            <span class="eyebrow">
+                READY TO BUY?
+            </span>
+
+            <h2>
+                Ask for today's price.
+            </h2>
+
+            <p>
+                Tell us the phone or accessory you want.
+            </p>
+
+        </div>
+
+
+        <a
+            href="https://wa.me/2348106460589?text=Hello%20DAN%20ZAKI%20MOBILE%20%26%20ACCESSORIES%2C%20please%20send%20me%20your%20current%20prices."
+            class="btn btn-white"
+            target="_blank"
+        >
+            Message Us
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="container contact-grid">
+
+        <div class="contact-text">
+
+            <span class="eyebrow">
+                CONTACT US
+            </span>
+
+            <h2>
+                Let's find the right phone for you.
+            </h2>
+
+            <p>
+                Have a question about a phone, accessory,
+                price or availability? Contact us directly.
+            </p>
+
+        </div>
+
+
+        <div class="contact-details">
+
+
+            <a
+                href="https://wa.me/2348106460589"
+                class="contact-item"
+                target="_blank"
+            >
+
+                <div class="contact-icon">
+                    💬
+                </div>
+
+                <div>
+
+                    <small>
+                        WhatsApp
+                    </small>
+
+                    <strong>
+                        +234 810 646 0589
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+            <a
+                href="tel:+2348106460589"
+                class="contact-item"
+            >
+
+                <div class="contact-icon">
+                    ☎
+                </div>
+
+                <div>
+
+                    <small>
+                        Call Us
+                    </small>
+
+                    <strong>
+                        +234 810 646 0589
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    📍
+                </div>
+
+                <div>
+
+                    <small>
+                        Head Office:
+                    </small>
+
+                    <strong>
+                        No. A116, I&I Plaza Farm Center,
+                        Kano-Nigeria
+                    </strong>
+
+                     <small>
+                        Branch Office:
+                    </small>
+
+                    <strong>
+                        Rijiyar Lemo GSM Market,
+                        Kano-Nigeria
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-top">
+
+        <div>
+
+            <a href="#home" class="logo">
+
+                <div class="logo-mark">
+                    DZ
+                </div>
+
+                <div class="logo-text">
+
+                    <strong>
+                        DAN ZAKI
+                    </strong>
+
+                    <span>
+                        PHONE & ACCESSORIES
+                    </span>
+
+                </div>
+
+            </a>
+
+            <p>
+                Your trusted destination for smartphones
+                and mobile accessories in Kano.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>
+                Quick Links
+            </h4>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#products">
+                Products
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>
+                Contact
+            </h4>
+
+            <a href="tel:+2348106460589">
+                +234 810 646 0589
+            </a>
+
+            <a
+                href="https://wa.me/2348106460589"
+                target="_blank"
+            >
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © <span id="year"></span>
+        DAN ZAKI PHONE & ACCESSORIES.
+        All rights reserved.
+
+    </div>
+
+</footer>
+
+
+<!-- FLOATING WHATSAPP -->
+
+<a
+    href="https://wa.me/2348106460589?text=Hello%20DAN%20ZAKI%20MOBILE%20%26%20ACCESSORIES"
+    class="floating-whatsapp"
+    target="_blank"
+>
+    💬
+</a>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
